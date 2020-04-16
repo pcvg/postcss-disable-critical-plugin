@@ -14,7 +14,7 @@
     "example": "node example"
   },
   "author": "Dima Lunkin <timonbandit@gmail.com>",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "repository": "https://github.com/pcvg/postcss-disable-critical-plugin",
   "dependencies": {
     "postcss": "^7.0.27"

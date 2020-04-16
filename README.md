@@ -60,7 +60,7 @@ Initial code
     font-weight: 700;
     font-size: 36px;
   }
-  
+
 /* Unnecessary comment */
 
   @media (max-width: 767px) {
@@ -110,3 +110,7 @@ If you do not use PostCSS, add it according to [official docs]
 and set this plugin in settings.
 
 [official docs]: https://github.com/postcss/postcss#usage
+
+## License
+
+This project is licensed under [GPL-3.0](https://raw.githubusercontent.com/pcvg/postcss-disable-critical-plugin/master/LICENSE).
