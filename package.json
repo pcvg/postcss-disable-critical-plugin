@@ -1,6 +1,6 @@
 {
-  "name": "postcss-su-dev",
-  "version": "1.0.0",
+  "name": "postcss-disable-critical-plugin",
+  "version": "1.0.2",
   "description": "PostCSS plugin for disabling critical css extraction on dev environments",
   "keywords": [
     "postcss",
@@ -14,7 +14,7 @@
   },
   "author": "Dima Lunkin <timonbandit@gmail.com>",
   "license": "MIT",
-  "repository": "timonbandit/postcss-su-dev",
+  "repository": "pcvg/postcss-disable-critical-plugin",
   "dependencies": {
     "postcss": "^7.0.27"
   },
