@@ -2,7 +2,7 @@
 
 let postcss = require('postcss')
 
-module.exports = postcss.plugin('postcss-su-dev', () => {
+module.exports = postcss.plugin('postcss-disable-critical-plugin', () => {
   return root => {
     root.walkComments(comment => {
       comment.remove()
