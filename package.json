@@ -2,18 +2,18 @@
   "name": "@savingsunited/postcss-disable-critical-plugin",
   "private": false,
   "version": "1.0.4",
-  "description": "PostCSS plugin for disabling critical css extraction on dev environments",
+  "description": "PostCSS plugin for disabling critical CSS extraction on dev environments",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "su"
+    "criticalss"
   ],
   "scripts": {
     "test": "jest",
     "example": "node example"
   },
-  "author": "Dima Lunkin <timonbandit@gmail.com>",
+  "author": "Dima Lunkin <dmitry.lunkin@savings-united.com>",
   "license": "GPL-3.0",
   "repository": "https://github.com/pcvg/postcss-disable-critical-plugin",
   "dependencies": {
