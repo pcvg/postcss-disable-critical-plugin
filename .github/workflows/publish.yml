@@ -1,6 +1,10 @@
 name: Publish
 on:
   push:
+    pull_request:
+      - 'master'
+    branches:
+      - 'master'
     tags:
        - '*'
 jobs:
@@ -17,6 +21,7 @@ jobs:
   publish:
     name: Publish
     needs: test
+    if: "contains(github.ref, 'tags')"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
