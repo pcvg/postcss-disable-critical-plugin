@@ -1,7 +1,7 @@
 {
   "name": "@savingsunited/postcss-disable-critical-plugin",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "PostCSS plugin for disabling critical css extraction on dev environments",
   "keywords": [
     "postcss",
